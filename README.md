@@ -1,4 +1,4 @@
 # odin-recipes
 Few food recipes I like and practice often
 
-Basic html skills, project structure, boilerplate html code.
+Very basic html skills : simple project structure, boilerplate code, headers, lists, images, links.
