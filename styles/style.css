@@ -1,39 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     max-width: 45rem;
     margin: 0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Arial, sans-serif;
     text-align: justify;
+    line-height: 1.5rem;
 }
 
 h1 {
+    color: #242424;
     text-align: center;
     font-weight: 800;
     font-size: 2.5rem;
 }
 
-a {
-    color: black;
+h2 {
+    color: #2f2f2f;
 }
 
 p,
 ul,
 ol {
-    color: #393939;
+    color: #454545;
 }
 
-h2 {
-    color: #242424;
+ul {
+    list-style-type: square;
 }
 
 .sublist {
-    /* line-height: 1.1; */
+    margin: 0.5rem 0;
+    line-height: 1.3rem;
     font-size: 0.9375rem;
     list-style-type: disc;
-    margin: 0.15rem auto;
-}
-
-.spaced {
-    line-height: 1.2;
 }
 
 img {
@@ -42,33 +44,32 @@ img {
     margin: 3rem auto 1rem;
 }
 
-ul {
-    list-style-type: square;
-}
-
-li {
-    margin-bottom: 0.5rem;
-}
-
 .navbar {
     list-style-type: none;
-    width: 17rem;
-    margin: 0;
-    padding: 0;
-    border: 1px solid #555;
+    display: block;
 }
 
 .navbarLi {
+    margin: 0px;
+    width: 17rem;
+}
+
+.navbarLi a {
     display: block;
-    text-align: left;
-    border-bottom: 1px solid #555;
+    text-decoration: none;
+    color: #393939;
+    border: solid 1px;
+    border-bottom: none;
+    width: 17rem;
+    background-color: #e0e0e0;
     padding: 0.5rem;
+    padding-left: 1rem;
 }
 
 .navbarLi:last-child {
-    border-bottom: none;
+    border-bottom: 1px solid;
 }
 
 .navbarLi :hover {
-    color: grey;
+    background-color: #ededed;
 }
